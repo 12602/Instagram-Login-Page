@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      * {
+        margin: 0px;
+        background-color: #be1c77;
+      }
+      section {
+        width: 370px;
+        height: 120px;
+        top: 80px;
+        left: 420px;
+        position: absolute;
+        display: inline-block;
+        background-image: url("../images/inatagramlogo.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      div {
+        position: absolute;
+        top: 200px;
+        left: 450px;
+        width: 500px;
+        background-image: url("../images/inatagramlogo.png");
+        background-position: center;
+      }
+      input {
+        height: 30px;
+        width: 300px;
+        padding: 10px;
+        /* border: solid 2px; */
+        border-color: #bd408c;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-top: 20px;
+        color: plum;
+      }
+
+      input[type="button"] {
+        font-weight: lighter;
+        width: 330px;
+        color: plum;
+        padding: 20px;
+      }
+
+      ::placeholder {
+        color: rgb(223, 164, 200);
+        opacity: 10;
+      }
+      article {
+        position: absolute;
+        top: 430px;
+        left: 450px;
+        color: rgb(255, 255, 254);
+      }
+      span {
+        font-size: large;
+      }
+      a.fb{
+          font-size: larger;
+        top: 500px;
+        left: 550px;
+        color: white;
+        position: absolute;
+        text-decoration: none;
+      }
+      main {
+        top: 470px;
+        left: 600px;
+        color: white;
+        position: absolute;
+        font-size: larger;
+      }
+      input:focus
+      {
+          height: 30px;
+          background-color:rgb(255,255,250);
+          font-size: larger;
+          border:fuchsia solid medium;
+        font-weight: bolder;
+         
+        
+      }
+       footer
+       {
+           top:490px;
+           position: absolute;
+  left:510px;
+        background-image: url("../images/Facebook-logo.png");
+        background-size: cover;
+        width: 50px;
+        height: 30px;
+        display: inline-block;
+
+      }
+      
+    </style>
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section></section>
+    <div>
+      <form>
+        <input type="text" placeholder="Username" required  />
+        <br />
+        <input type="password" placeholder="Password" required />
+        <br />
+        <a href="https://www.instagram.com"> <input type="button" value="Log in" />
+            </a>
+      </form>
+    </div>
+    <article>
+      Forgotten your login details ? <span> Get help signing in.</span>
+    </article>
+    <main>OR</main>
+    <footer></footer>
+    <a  class="fb" href="https://www.facebook.com">Log In with Facebook</a>
+  </body>
+</html>
